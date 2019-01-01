@@ -22,8 +22,7 @@ public class SmsController {
     @RequestMapping(value = "sendSms")
     @ResponseBody
     public JsonResult sendSms(String phone){
-        String code = SmsUtil.send(phone);
-        return new JsonResult(0,code);
+        return SmsUtil.send(phone);
     }
 
 }

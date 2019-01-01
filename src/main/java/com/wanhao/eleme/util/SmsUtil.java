@@ -1,6 +1,7 @@
 package com.wanhao.eleme.util;
 
 import com.cloopen.rest.sdk.CCPRestSmsSDK;
+import com.wanhao.eleme.bean.JsonResult;
 
 import java.util.HashMap;
 import java.util.Random;
@@ -28,12 +29,11 @@ public class SmsUtil {
      * @param mobile 手机号
      * @return 验证码
      */
-    public static String send(String mobile){
+    public static JsonResult send(String mobile){
         String code = genRandom(6);
         HashMap<String, Object> result = null;
         result = restAPI.sendTemplateSMS(mobile,"1" ,new String[]{code,"5"});
 
-        System.out.println("SDKTestGetSubAccounts result=" + result);
         if(SUCCESS.equals(result.get("statusCode"))){
 
             //正常返回输出data包体信息（map）
@@ -46,9 +46,9 @@ public class SmsUtil {
         }else{
             //异常返回输出错误码和错误信息
             System.out.println("错误码=" + result.get("statusCode") +" 错误信息= "+result.get("statusMsg"));
-            return (String) result.get("statusCode");
+            return new JsonResult(1,(String) result.get("statusCode"));
         }
-        return code;
+        return new JsonResult(0,code);
     }
 
     /**
