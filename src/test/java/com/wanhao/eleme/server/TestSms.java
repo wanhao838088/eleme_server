@@ -1,5 +1,6 @@
 package com.wanhao.eleme.server;
 
+import com.wanhao.eleme.bean.JsonResult;
 import com.wanhao.eleme.util.SmsUtil;
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class TestSms {
 
     @Test
     public void testSend(){
-        String send = SmsUtil.send("18865392565");
+        JsonResult send = SmsUtil.send("18865392565");
         System.out.println("验证吗是: "+send);
     }
 }

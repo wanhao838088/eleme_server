@@ -43,12 +43,12 @@ public class SmsUtil {
                 Object object = data.get(key);
                 System.out.println(key +" = "+object);
             }
+            return new JsonResult(0,code);
         }else{
             //异常返回输出错误码和错误信息
             System.out.println("错误码=" + result.get("statusCode") +" 错误信息= "+result.get("statusMsg"));
-            return new JsonResult(1,(String) result.get("statusCode"));
+            return new JsonResult(1,(String) result.get("statusMsg"));
         }
-        return new JsonResult(0,code);
     }
 
     /**
