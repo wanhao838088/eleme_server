@@ -30,7 +30,7 @@ public class SmsController {
     @ResponseBody
     public JsonResult sendSms(String phone, HttpSession session){
         JsonResult result = SmsUtil.send(phone);
-        session.setAttribute(phone, result.getMsg());
+        System.out.println("获取的验证码是:  "+result.getMsg());
         redisTemplate.opsForValue().set(phone, result.getMsg());
         return result;
     }
