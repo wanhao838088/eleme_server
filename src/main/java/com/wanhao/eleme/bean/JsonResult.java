@@ -7,6 +7,7 @@ package com.wanhao.eleme.bean;
 public class JsonResult {
     private Integer code;
     private String msg;
+    private Object data;
 
     public Integer getCode() {
         return code;
@@ -27,6 +28,11 @@ public class JsonResult {
     public JsonResult(Integer code, String msg) {
         this.code = code;
         this.msg = msg;
+    }
+    public JsonResult(Integer code, String msg,Object data) {
+        this.code = code;
+        this.msg = msg;
+        this.data = data;
     }
 
     public JsonResult(Integer code) {
