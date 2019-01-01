@@ -1,0 +1,278 @@
+2019-01-01 11:06:33.741  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 8464 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 11:06:33.743  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 11:06:35.669  WARN 8464 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 11:06:35.704  WARN 8464 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 11:06:35.805  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 11:06:35.807  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 11:06:35.840  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-01-01 11:06:36.444  INFO 8464 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c9c842] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 11:06:37.164  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 11:06:37.252  INFO 8464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 11:06:37.253  INFO 8464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 11:06:37.275  INFO 8464 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-01-01 11:06:37.640  INFO 8464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 11:06:37.641  INFO 8464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3620 ms
+2019-01-01 11:06:38.067  INFO 8464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 11:06:39.137  INFO 8464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 11:06:39.229  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 11:06:39.234  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 7.091 seconds (JVM running for 10.653)
+2019-01-01 11:06:57.931  INFO 8464 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-01 11:06:57.932  INFO 8464 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-01 11:06:57.945  INFO 8464 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-01-01 11:54:56.912  INFO 8464 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 11:54:57.857  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 8464 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 11:54:57.857  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 11:54:59.065  WARN 8464 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 11:54:59.075  WARN 8464 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 11:54:59.119  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 11:54:59.119  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 11:54:59.122  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-01-01 11:54:59.452  INFO 8464 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c9c842] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 11:54:59.884  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 11:54:59.887  INFO 8464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 11:54:59.888  INFO 8464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 11:55:00.103  INFO 8464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 11:55:00.103  INFO 8464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2239 ms
+2019-01-01 11:55:00.716  INFO 8464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 11:55:01.459  INFO 8464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 11:55:01.541  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 11:55:01.543  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 3.781 seconds (JVM running for 2912.962)
+2019-01-01 11:55:01.549  INFO 8464 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 11:59:06.259  INFO 8464 --- [Thread-26] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 11:59:07.126  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 8464 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 11:59:07.126  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 11:59:07.602  WARN 8464 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 11:59:07.609  WARN 8464 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 11:59:07.628  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 11:59:07.628  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 11:59:07.632  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-01-01 11:59:07.735  INFO 8464 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c9c842] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 11:59:07.965  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 11:59:07.968  INFO 8464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 11:59:07.968  INFO 8464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 11:59:08.020  INFO 8464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 11:59:08.021  INFO 8464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 889 ms
+2019-01-01 11:59:08.231  INFO 8464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 11:59:08.818  INFO 8464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 11:59:08.883  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 11:59:08.885  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 1.821 seconds (JVM running for 3160.305)
+2019-01-01 11:59:08.893  INFO 8464 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 11:59:10.297  INFO 8464 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 11:59:11.271  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 8464 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 11:59:11.272  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 11:59:11.962  WARN 8464 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 11:59:11.979  WARN 8464 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 11:59:12.003  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 11:59:12.003  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 11:59:12.010  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-01-01 11:59:12.295  INFO 8464 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c9c842] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 11:59:12.561  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 11:59:12.565  INFO 8464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 11:59:12.566  INFO 8464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 11:59:12.640  INFO 8464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 11:59:12.640  INFO 8464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1362 ms
+2019-01-01 11:59:13.122  INFO 8464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 11:59:13.699  INFO 8464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 11:59:13.744  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 11:59:13.745  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 2.598 seconds (JVM running for 3165.165)
+2019-01-01 11:59:13.750  INFO 8464 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 12:05:43.590  INFO 8464 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 12:05:44.566  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 8464 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 12:05:44.567  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 12:05:45.148  WARN 8464 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 12:05:45.152  WARN 8464 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 12:05:45.167  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 12:05:45.167  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 12:05:45.170  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-01-01 12:05:45.256  INFO 8464 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c9c842] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 12:05:45.466  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 12:05:45.470  INFO 8464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 12:05:45.471  INFO 8464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 12:05:45.565  INFO 8464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 12:05:45.566  INFO 8464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 995 ms
+2019-01-01 12:05:45.767  INFO 8464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 12:05:46.405  INFO 8464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 12:05:46.516  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 12:05:46.517  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 2.042 seconds (JVM running for 3557.936)
+2019-01-01 12:05:46.522  INFO 8464 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 12:05:47.953  INFO 8464 --- [Thread-44] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 12:05:48.369  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 8464 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 12:05:48.370  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 12:05:48.824  WARN 8464 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 12:05:48.830  WARN 8464 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 12:05:48.856  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 12:05:48.856  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 12:05:48.859  INFO 8464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-01-01 12:05:48.949  INFO 8464 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c9c842] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 12:05:49.206  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 12:05:49.211  INFO 8464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 12:05:49.211  INFO 8464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 12:05:49.255  INFO 8464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 12:05:49.256  INFO 8464 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 882 ms
+2019-01-01 12:05:49.480  INFO 8464 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 12:05:49.846  INFO 8464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 12:05:49.928  INFO 8464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 12:05:49.930  INFO 8464 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 1.608 seconds (JVM running for 3561.349)
+2019-01-01 12:05:49.935  INFO 8464 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 14:27:19.971  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 9128 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 14:27:19.973  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 14:27:21.851  WARN 9128 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:27:21.863  WARN 9128 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:27:21.942  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 14:27:21.946  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 14:27:21.974  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-01-01 14:27:22.681  INFO 9128 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b85c6e8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 14:27:23.303  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 14:27:23.343  INFO 9128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 14:27:23.343  INFO 9128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 14:27:23.353  INFO 9128 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-01-01 14:27:23.526  INFO 9128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 14:27:23.526  INFO 9128 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3362 ms
+2019-01-01 14:27:23.974  INFO 9128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:27:25.009  INFO 9128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 14:27:25.092  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 14:27:25.096  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 6.071 seconds (JVM running for 7.83)
+2019-01-01 14:28:09.792  INFO 9128 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-01 14:28:09.792  INFO 9128 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-01 14:28:09.804  INFO 9128 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-01-01 14:28:47.110  INFO 9128 --- [Thread-18] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:28:48.120  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 9128 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 14:28:48.121  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 14:28:48.574  WARN 9128 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:28:48.580  WARN 9128 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:28:48.596  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 14:28:48.597  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 14:28:48.599  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-01-01 14:28:48.692  INFO 9128 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b85c6e8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 14:28:48.894  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 14:28:48.896  INFO 9128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 14:28:48.897  INFO 9128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 14:28:48.931  INFO 9128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 14:28:48.931  INFO 9128 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 805 ms
+2019-01-01 14:28:49.119  INFO 9128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:28:49.677  INFO 9128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 14:28:49.746  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 14:28:49.750  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 1.705 seconds (JVM running for 92.484)
+2019-01-01 14:28:49.756  INFO 9128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 14:28:51.120  INFO 9128 --- [Thread-26] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:28:51.654  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 9128 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 14:28:51.654  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 14:28:52.096  WARN 9128 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:28:52.101  WARN 9128 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:28:52.121  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 14:28:52.121  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 14:28:52.125  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-01-01 14:28:52.233  INFO 9128 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b85c6e8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 14:28:52.534  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 14:28:52.537  INFO 9128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 14:28:52.537  INFO 9128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 14:28:52.591  INFO 9128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 14:28:52.592  INFO 9128 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 933 ms
+2019-01-01 14:28:52.876  INFO 9128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:28:53.409  INFO 9128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 14:28:53.495  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 14:28:53.497  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 1.911 seconds (JVM running for 96.232)
+2019-01-01 14:28:53.502  INFO 9128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 14:28:57.833  INFO 9128 --- [http-nio-8081-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-01 14:28:57.835  INFO 9128 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-01 14:28:57.844  INFO 9128 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-01-01 14:31:04.299  INFO 9128 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:31:05.230  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 9128 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 14:31:05.230  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 14:31:05.630  WARN 9128 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:31:05.636  WARN 9128 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:31:05.650  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 14:31:05.650  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 14:31:05.653  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019-01-01 14:31:05.733  INFO 9128 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b85c6e8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 14:31:05.894  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 14:31:05.896  INFO 9128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 14:31:05.896  INFO 9128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 14:31:05.928  INFO 9128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 14:31:05.928  INFO 9128 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 693 ms
+2019-01-01 14:31:06.122  INFO 9128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:31:06.505  INFO 9128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 14:31:06.554  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 14:31:06.555  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 1.431 seconds (JVM running for 229.289)
+2019-01-01 14:31:06.562  INFO 9128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 14:31:07.926  INFO 9128 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:31:08.384  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Starting ServerApplication on SC-201811251034 with PID 9128 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 14:31:08.384  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : The following profiles are active: dev
+2019-01-01 14:31:08.816  WARN 9128 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:31:08.822  WARN 9128 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme.server]' package. Please check your configuration.
+2019-01-01 14:31:08.837  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 14:31:08.837  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 14:31:08.840  INFO 9128 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-01-01 14:31:08.946  INFO 9128 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b85c6e8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 14:31:09.296  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 14:31:09.301  INFO 9128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 14:31:09.302  INFO 9128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 14:31:09.410  INFO 9128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 14:31:09.411  INFO 9128 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1023 ms
+2019-01-01 14:31:09.707  INFO 9128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:31:10.173  INFO 9128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 14:31:10.230  INFO 9128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 14:31:10.231  INFO 9128 --- [restartedMain] c.wanhao.eleme.server.ServerApplication  : Started ServerApplication in 1.901 seconds (JVM running for 232.965)
+2019-01-01 14:31:10.235  INFO 9128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 14:31:13.672  INFO 9128 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-01 14:31:13.673  INFO 9128 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-01 14:31:13.678  INFO 9128 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-01 14:32:20.483  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : Starting ServerApplication on SC-201811251034 with PID 7736 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 14:32:20.486  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : The following profiles are active: dev
+2019-01-01 14:32:23.110  WARN 7736 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme]' package. Please check your configuration.
+2019-01-01 14:32:23.122  WARN 7736 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme]' package. Please check your configuration.
+2019-01-01 14:32:23.192  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 14:32:23.195  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 14:32:23.228  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-01-01 14:32:24.214  INFO 7736 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$948b7c27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 14:32:24.943  INFO 7736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 14:32:24.997  INFO 7736 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 14:32:24.999  INFO 7736 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 14:32:25.022  INFO 7736 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-01-01 14:32:25.293  INFO 7736 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 14:32:25.293  INFO 7736 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4592 ms
+2019-01-01 14:32:25.981  INFO 7736 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:32:27.179  INFO 7736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 14:32:27.284  INFO 7736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 14:32:27.291  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : Started ServerApplication in 8.149 seconds (JVM running for 10.738)
+2019-01-01 14:32:33.191  INFO 7736 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-01 14:32:33.191  INFO 7736 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-01 14:32:33.204  INFO 7736 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-01-01 14:36:10.558  INFO 7736 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:36:11.678  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : Starting ServerApplication on SC-201811251034 with PID 7736 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 14:36:11.679  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : The following profiles are active: dev
+2019-01-01 14:36:12.993  WARN 7736 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme]' package. Please check your configuration.
+2019-01-01 14:36:13.005  WARN 7736 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme]' package. Please check your configuration.
+2019-01-01 14:36:13.036  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 14:36:13.036  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 14:36:13.044  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-01-01 14:36:13.200  INFO 7736 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$948b7c27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 14:36:13.451  INFO 7736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 14:36:13.454  INFO 7736 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 14:36:13.455  INFO 7736 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 14:36:13.498  INFO 7736 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 14:36:13.499  INFO 7736 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1811 ms
+2019-01-01 14:36:13.739  INFO 7736 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:36:14.385  INFO 7736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 14:36:14.502  INFO 7736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 14:36:14.506  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : Started ServerApplication in 2.927 seconds (JVM running for 237.955)
+2019-01-01 14:36:14.514  INFO 7736 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-01 14:36:15.896  INFO 7736 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:36:16.736  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : Starting ServerApplication on SC-201811251034 with PID 7736 (C:\code\java\eleme_server\target\classes started by Administrator in C:\code\java\eleme_server)
+2019-01-01 14:36:16.737  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : The following profiles are active: dev
+2019-01-01 14:36:20.822  WARN 7736 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme]' package. Please check your configuration.
+2019-01-01 14:36:20.841  WARN 7736 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wanhao.eleme]' package. Please check your configuration.
+2019-01-01 14:36:21.232  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-01 14:36:21.233  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-01 14:36:21.246  INFO 7736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-01-01 14:36:21.454  INFO 7736 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$948b7c27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-01 14:36:22.275  INFO 7736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-01-01 14:36:22.277  INFO 7736 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-01 14:36:22.277  INFO 7736 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-01 14:36:22.326  INFO 7736 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-01 14:36:22.326  INFO 7736 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5578 ms
+2019-01-01 14:36:23.264  INFO 7736 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-01 14:36:24.844  INFO 7736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-01 14:36:24.966  INFO 7736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2019-01-01 14:36:24.968  INFO 7736 --- [restartedMain] com.wanhao.eleme.ServerApplication       : Started ServerApplication in 8.326 seconds (JVM running for 248.417)
+2019-01-01 14:36:24.976  INFO 7736 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
