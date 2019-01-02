@@ -3,7 +3,7 @@ package com.wanhao.eleme.bean;
 import java.util.List;
 
 /**
- * 标准数组JSON响应消息模板 韦德 2018年8月1日23:05:56
+ * 标准数组JSON响应消息模板
  * @author Administrator
  * @param <T>
  */

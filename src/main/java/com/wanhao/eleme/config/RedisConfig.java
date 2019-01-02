@@ -15,7 +15,7 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 
 /**
  * Created by LiuLiHao on 2018/7/22 0:13.
- * 描述：
+ * 描述：redis连接配置
  * 作者： LiuLiHao
  */
 @Configuration

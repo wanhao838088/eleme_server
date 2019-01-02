@@ -1,7 +1,7 @@
 package com.wanhao.eleme.bean;
 
 /**
- * 标准JSON响应消息模板 韦德 2018年8月1日23:05:56
+ * 标准JSON响应消息模板
  * @author Administrator
  */
 public class JsonResult {
@@ -39,5 +39,13 @@ public class JsonResult {
         this.code = code;
         if(code == 0)  this.msg = "success";
         if(code == 1)  this.msg = "error";
+    }
+
+    public Object getData() {
+        return data;
+    }
+
+    public void setData(Object data) {
+        this.data = data;
     }
 }
