@@ -36,4 +36,9 @@ public interface SystemConstants {
      * APPID
      */
     String APPID = "8aaf070867e8660f0168073b86a20f57";
+    /**
+     * session过期时间
+     */
+    int SESSION_TIMEOUT = 3600*24;
+
 }
