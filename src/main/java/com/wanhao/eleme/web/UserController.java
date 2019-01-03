@@ -86,6 +86,19 @@ public class UserController {
     }
 
     /**
+     * 退出登录
+     * @param session
+     * @return
+     */
+    @RequestMapping(value = "logout")
+    @ResponseBody
+    public JsonResult logout(HttpSession session){
+        session.removeAttribute("user");
+        session.invalidate();
+        return new JsonResult(0,"退出成功!");
+    }
+
+    /**
      * 生成用户信息
      * @param session
      * @return
